@@ -21,8 +21,14 @@
 
 .header p {
     color: var(--blue);
-    font-size: 0.875rem;
+    font-size: 0.775rem;
     font-weight: 700;
+}
+
+@media (min-width: 425px) {
+    .header p {
+        font-size: 0.875rem;
+    }
 }
 
 .header p.textPurple {
